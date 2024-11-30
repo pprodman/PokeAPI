@@ -69,8 +69,8 @@ public class PokemonFragment extends Fragment {
             }
         });
 
-        // Fetch initial list of Pokemon
-        viewModel.fetchPokemonList(20, 0);
+        // Fetch initial list of Pokemon (sabemos que existen 1302 Pokemon segun la API)
+        viewModel.fetchPokemonList(1302, 0);
     }
 
     @Override
